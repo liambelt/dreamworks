@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(16, 16, 134);
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Tilt Warp', cursive;
+    font-family: 'Ultra', serif;
+    color: rgb(12, 12, 122);
+}
+
+.navbar{
+    background-color: black;
+}
+
+.container-fluid2{
+    background-color: aliceblue;
+  
+}
+
+.otro{
+    background-color: rgb(16, 16, 134);
+}
+
+
+
