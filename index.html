@@ -3,12 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>dreamworks</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quintessential&family=Tilt+Warp&family=Ultra&display=swap" rel="stylesheet">
+<link rel="icon" href="images/blanquito.png">
+<div class="col-12 audio">
+<audio controls >
+  <source src="audio/shrek dreamworks opening music (online-audio-converter.com).mp3" type="audio/mp3" >
+  </audio>
+</div>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary"  >
@@ -22,18 +28,20 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
     
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   personajes
                 </a>
+                
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#shrek">shrek</a></li>
                   <li><a class="dropdown-item" href="#po">po</a></li>
-                  <li><a class="dropdown-item" href="#">chimuelo-hipo</a></li>
-                  <li><a class="dropdown-item" href="#">jack frost</a></li>
+                  <li><a class="dropdown-item" href="#hipo">chimuelo-hipo</a></li>
+                  <li><a class="dropdown-item" href="#jack">jack frost</a></li>
+                  
                 </ul>
               </li>
             </ul>
@@ -81,29 +89,92 @@
           </div> 
           
     </div>  
-     <div class="container-fluid2">
-        <div class="row d-flex">
-            <div class="col-12 d-flex justify-content-center p-4">
-                <img class="justify-center" src="../dreamworks/images/shrek.png" alt="yopi" height="500rem">
-                <article>
-                    Shrek es una película de comedia estadounidense de animación por computadora estrenada en 2001 basada en el libro homónimo de William Steig de 1990.
-                </article>
-
-                <iframe width="660" height="315" src="https://www.youtube.com/embed/BsI2Kn138ig?start=57" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                
-            </div>
-            <div class="row otro" >
-                <div class="col-6">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BsI2Kn138ig?start=57" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                </div>
-
-                <div class="col-6 d-flex justify-content-center p-4">
-                        <img class="justify-center" src="../dreamworks/images/po.webp" alt="yopi" height="500rem">
-    
-                </div>
-            </div>
+    <div class="container-fluid2">
+      <div class="row">
+        <div class="col-6 d-flex flex-column justify-content-center p-4">
+          <img src="images/shrek.png" alt="shrek" width="500px" id="shrek">
+          <article>
+            <p>Shrek es un ogro que vive en una casa en un pantano, espantando a los aldeanos que se acercan a su pantano con el fin de cazarlo. Un día conoce a un burro parlante que huía de un grupo de guardias, y estos al ver a Shrek huyen aterrorizados.</p>
+          </article>
+          <div class="col-6">
+          <button type="button"  class="btn btn-primary" id="home"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  siguiente
+</div>
+</button>
         </div>
+        <div class="col-6 d-flex flex-column justify-content-center p-4">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/BsI2Kn138ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row otro">
+        <div class="col-6 d-flex flex-column justify-content-center p-4">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/KJItV5ML0ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-center p-4">
+          <img src="images/po.webp" alt="Homero" width="400px" id="po">
+          <article>
+            <p>Po es un personaje ficticio y el protagonista de la franquicia Kung Fu Panda. Es un panda gigante que de manera improbable es elegido como el Guerrero Dragón. Él es hijo adoptivo del Sr. Ping, y es uno de los estudiantes del maestro Shifu.</p>
+          </article>
+          <div class="col-6">
+          <button type="button"  class="btn btn-primary" id="home"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  siguiente
+          </div>
+</button>
+        </div>
+      </div>
+      </div>
+      <div class="row ola">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WekiS-Ggcws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="col-6 ">
+          <img src="images/hipo.png" alt="Homero" width="430px" id="hipo">
+          
+          
+          <article>
+            <p>Hipo Horrendo Abadejo III es un joven vikingo que no tiene la misma fuerza y destreza que sus compañeros, por lo que nadie lo toma en serio pese a ser el hijo de Estoico el Vasto, el jefe de la isla.</p>
+          </article>
+          <div class="col-6">
+          <button type="button"  class="btn btn-primary" id="home"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  anterior
+    </div>
+</button>
+          
+          
+        </div>
+        <div class="col-6 ">
+          
+          <img src="images/chimuelo.webp" alt="Homero" width="740px" id="hipo">
+          <article>
+            <div class="col-6">
+            <p>Chimuelo vivía en el Nido de Dragones en la Isla de los Dragones junto con todos los demás dragones que atacarían Berk y ha nacido unos 15 años antes de los eventos de la primera película. Algún tiempo antes de la primera película, Chimuelo se encontró con un Muerte Susurrante, con quien comenzó un conflicto.</p>
+            <button type="button"  class="btn btn-primary" id="home"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  siguiente
+           </div>
+</button>
+          </article>
+        </div>
+      </div>
+
+      <div class="row otro2">
+        <div class="col-5 d-flex flex-column justify-content-center p-4 ">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/fYVAGoTb8w4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-center p-4">
+          <img src="images/jack frost.png" alt="Homero" width="400px" id="jack">
+          <article>
+            <p>Jack Frost es una figura élfica legendaria perteneciente al folclore del norte de Europa; se cree que este mito proviene de los anglosajones y nórdicos.</p>
+          </article>
+          <div class="col-6">
+          <button type="button"  class="btn btn-primary" id="home"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  siguiente
+</button>
+        </div>
+      </div>
+      </div>
         <div class="row">
             <div class="col-6"></div>
             <div class="col-6"></div>
